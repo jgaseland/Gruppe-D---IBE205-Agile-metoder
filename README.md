@@ -329,19 +329,20 @@ continuous integration/delivery, and evidence-based improvement.
 
 ------------------------------------------------------------------------
 
-## Team
+### Team
 
-**Group:** \[insert group number\]
+**Group:** \[d\]
+
+## Team Delivery 1
 
   Team member   Role / responsibility
   ------------- -----------------------
-  \[Name\]      \[Role\]
-  \[Name\]      \[Role\]
-  \[Name\]      \[Role\]
-  \[Name\]      \[Role\]
-  \[Name\]      \[Role\]
-  \[Name\]      \[Role\]
-  \[Name\]      \[Role\]
+  \[Vebjørn\]     \[Product Owner / Product Lead / Scrum Master\]
+  \[Joakim\]      \[Experience Lead\]
+  \[Thomas\]      \[Quality Lead\]
+  \[Nhatphong\]   \[Tech Lead\]
+  \[Vegard\]      \[Architecture Lead\]
+  \[Dennis\]      \[Delivery / DevOps Lead\]
 
 Roles can evolve during the project. Collective ownership of the product
 remains a team responsibility.
