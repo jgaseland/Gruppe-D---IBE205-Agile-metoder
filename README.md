@@ -244,22 +244,25 @@ should not become dependent on only one person.
 
 ## Repository structure
 
-The repository can gradually evolve toward the following structure:
+The repository is organized around the following Deliverable 2 structure:
 
 ``` text
 stadionhopper/
 ├── README.md
 ├── docs/
 │   ├── discovery/
-│   ├── design/
-│   └── decisions/
-├── src/
-├── tests/
-└── .github/
+│   ├── domain/
+│   ├── architecture/
+│   ├── ux/
+│   ├── git/
+│   ├── ci/
+│   └── testing/
+├── src/          # added when implementation begins
+├── tests/        # added with executable tests
+└── .github/      # CI/workflow configuration
 ```
 
-The structure will evolve as technical decisions are made during later
-deliverables.
+The structure keeps product discovery, technical design, UX and quality documentation separate while preserving a clear Git trace. Empty implementation folders are added only when they contain real project artefacts.
 
 ------------------------------------------------------------------------
 
@@ -279,23 +282,19 @@ The course project is organized around four agile deliveries:
 
 ### Current phase
 
-**Deliverable 1 -- Discovery**
+**Deliverable 2 -- Design**
 
 Current focus:
 
--   [x] Product vision
--   [x] Problem definition
--   [x] Value proposition
--   [x] MVP scope
--   [x] MoSCoW prioritization
--   [x] Stakeholder analysis
--   [x] Proto-personas
--   [x] Core use cases
--   [x] Initial product backlog
--   [x] Sprint 1 plan
--   [x] Team working agreements
--   [ ] Transfer prioritized backlog to GitHub Issues/Project
--   [ ] Validate assumptions with stakeholder/user feedback
+-   [x] Discovery foundation from Deliverable 1
+-   [x] UX design and clickable prototype
+-   [x] Initial domain model and pseudocode
+-   [ ] Confirm open domain-model decisions as a team
+-   [ ] Solution architecture and technical decisions
+-   [ ] Git strategy
+-   [ ] CI strategy
+-   [ ] Test strategy
+-   [ ] Validate key UX assumptions with real users when a testable implementation is available
 
 ------------------------------------------------------------------------
 
