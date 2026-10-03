@@ -20,8 +20,7 @@ Suggested attributes: `stadiumId`, `name`, `location`, `capacity`.
 
 Relationships:
 - A Stadium can host zero or many Matches.
-- A Stadium can be the home venue for zero or many Clubs.
-- A Stadium can host zero or many Matches.
+- A Stadium can be the primary home venue for zero or many Clubs.
 
 ### Club
 Represents a football club.
