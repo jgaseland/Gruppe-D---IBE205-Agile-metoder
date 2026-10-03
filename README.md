@@ -290,10 +290,10 @@ Current focus:
 -   [x] UX design and clickable prototype
 -   [x] Initial domain model and pseudocode
 -   [ ] Confirm open domain-model decisions as a team
--   [ ] Solution architecture and technical decisions
--   [ ] Git strategy
--   [ ] CI strategy
--   [ ] Test strategy
+-   [x] Proposed solution architecture and documented open technical decisions
+-   [x] Git strategy
+-   [x] CI strategy
+-   [x] Test strategy
 -   [ ] Validate key UX assumptions with real users when a testable implementation is available
 
 ------------------------------------------------------------------------
