@@ -242,6 +242,12 @@ should not become dependent on only one person.
 
 ------------------------------------------------------------------------
 
+## Deliverable 2 guide
+
+For a concise map of how Discovery, UX, domain modelling, architecture, Git, CI and testing connect, see [Deliverable 2 Overview and Traceability](docs/deliverable-2-overview.md).
+
+------------------------------------------------------------------------
+
 ## Repository structure
 
 The repository is organized around the following Deliverable 2 structure:
