@@ -23,7 +23,7 @@ class Club {
     String name
     String city
     String? logoUrl
-    UUID? stadiumId
+    UUID? primaryStadiumId
 }
 
 class Match {
@@ -40,7 +40,6 @@ class CheckIn {
     UUID checkInId
     UUID userId
     UUID matchId
-    UUID stadiumId
     DateTime createdAt
     String? photoUrl
     String? comment
@@ -62,7 +61,13 @@ class Event {
     String? description
     DateTime startTime
     String location
-    Set<UUID> attendeeUserIds
+}
+
+class EventAttendance {
+    UUID userId
+    UUID eventId
+    String status
+    DateTime createdAt
 }
 ```
 
@@ -72,9 +77,14 @@ class Event {
 Match.homeClubId != Match.awayClubId
 CheckIn.userId must reference an existing User
 CheckIn.matchId must reference an existing Match
-CheckIn.stadiumId must reference an existing Stadium
+Match.stadiumId must reference an existing Stadium
 Post.userId must reference an existing User
-Event.attendeeUserIds must reference existing Users
+EventAttendance.userId must reference an existing User
+EventAttendance.eventId must reference an existing Event
 ```
 
 The exact programming language and persistence technology are intentionally left open for the architecture decision.
+
+
+## Source-of-truth rule
+For a match-based CheckIn, the stadium is resolved through `CheckIn.matchId -> Match.stadiumId`. The CheckIn does not duplicate `stadiumId` in the initial model.
