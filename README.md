@@ -125,7 +125,7 @@ stakeholder or pilot feedback.
 
 ------------------------------------------------------------------------
 
-## Initial product backlog
+## Discovery backlog foundation
 
 The backlog is managed through GitHub Issues / GitHub Projects. User
 stories follow the format:
@@ -154,7 +154,7 @@ is visible in the user's visit history.
 
 ------------------------------------------------------------------------
 
-## Sprint 1
+## Sprint 1 design target
 
 ### Sprint goal
 
@@ -162,7 +162,7 @@ Create a demonstrable end-to-end foundation where a pilot user can
 authenticate, view basic pilot stadium/match information, and create a
 simple stadium check-in that is stored and visible to the user.
 
-### Planned Sprint 1 backlog
+### Sprint 1 backlog carried forward from Discovery
 
 1.  Account creation and sign-in
 2.  Basic user profile
@@ -242,24 +242,33 @@ should not become dependent on only one person.
 
 ------------------------------------------------------------------------
 
+## Deliverable 2 guide
+
+For a concise map of how Discovery, UX, domain modelling, architecture, Git, CI and testing connect, see [Deliverable 2 Overview and Traceability](docs/deliverable-2-overview.md).
+
+------------------------------------------------------------------------
+
 ## Repository structure
 
-The repository can gradually evolve toward the following structure:
+The repository is organized around the following Deliverable 2 structure:
 
 ``` text
 stadionhopper/
 ├── README.md
 ├── docs/
 │   ├── discovery/
-│   ├── design/
-│   └── decisions/
-├── src/
-├── tests/
-└── .github/
+│   ├── domain/
+│   ├── architecture/
+│   ├── ux/
+│   ├── git/
+│   ├── ci/
+│   └── testing/
+├── src/          # added when implementation begins
+├── tests/        # added with executable tests
+└── .github/      # CI/workflow configuration
 ```
 
-The structure will evolve as technical decisions are made during later
-deliverables.
+The structure keeps product discovery, technical design, UX and quality documentation separate while preserving a clear Git trace. Empty implementation folders are added only when they contain real project artefacts.
 
 ------------------------------------------------------------------------
 
@@ -279,23 +288,19 @@ The course project is organized around four agile deliveries:
 
 ### Current phase
 
-**Deliverable 1 -- Discovery**
+**Deliverable 2 -- Design**
 
 Current focus:
 
--   [x] Product vision
--   [x] Problem definition
--   [x] Value proposition
--   [x] MVP scope
--   [x] MoSCoW prioritization
--   [x] Stakeholder analysis
--   [x] Proto-personas
--   [x] Core use cases
--   [x] Initial product backlog
--   [x] Sprint 1 plan
--   [x] Team working agreements
--   [ ] Transfer prioritized backlog to GitHub Issues/Project
--   [ ] Validate assumptions with stakeholder/user feedback
+-   [x] Discovery foundation from Deliverable 1
+-   [x] UX design and clickable prototype
+-   [x] Initial domain model and pseudocode
+-   [ ] Confirm open domain-model decisions as a team
+-   [x] Proposed solution architecture and documented open technical decisions
+-   [x] Git strategy
+-   [x] CI strategy
+-   [x] Test strategy
+-   [ ] Validate key UX assumptions with real users when a testable implementation is available
 
 ------------------------------------------------------------------------
 
@@ -331,18 +336,18 @@ continuous integration/delivery, and evidence-based improvement.
 
 ### Team
 
-**Group:** \[d\]
+**Group:** D
 
-## Team Delivery 1
+## Team roles established in Deliverable 1
 
   Team member   Role / responsibility
   ------------- -----------------------
-  \[Vebjørn\]     \[Product Owner / Product Lead / Scrum Master\]
-  \[Joakim\]      \[Experience Lead\]
-  \[Thomas\]      \[Quality Lead\]
-  \[Nhatphong\]   \[Tech Lead\]
-  \[Vegard\]      \[Architecture Lead\]
-  \[Dennis\]      \[Delivery / DevOps Lead\]
+  Vebjørn     Product Owner / Product Lead / Scrum Master
+  Joakim      Experience Lead
+  Thomas      Quality Lead
+  Nhatphong   Tech Lead
+  Vegard      Architecture Lead
+  Dennis      Delivery / DevOps Lead
 
 Roles can evolve during the project. Collective ownership of the product
 remains a team responsibility.
