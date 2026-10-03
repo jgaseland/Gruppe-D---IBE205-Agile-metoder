@@ -125,7 +125,7 @@ stakeholder or pilot feedback.
 
 ------------------------------------------------------------------------
 
-## Initial product backlog
+## Discovery backlog foundation
 
 The backlog is managed through GitHub Issues / GitHub Projects. User
 stories follow the format:
@@ -154,7 +154,7 @@ is visible in the user's visit history.
 
 ------------------------------------------------------------------------
 
-## Sprint 1
+## Sprint 1 design target
 
 ### Sprint goal
 
@@ -162,7 +162,7 @@ Create a demonstrable end-to-end foundation where a pilot user can
 authenticate, view basic pilot stadium/match information, and create a
 simple stadium check-in that is stored and visible to the user.
 
-### Planned Sprint 1 backlog
+### Sprint 1 backlog carried forward from Discovery
 
 1.  Account creation and sign-in
 2.  Basic user profile
@@ -336,18 +336,18 @@ continuous integration/delivery, and evidence-based improvement.
 
 ### Team
 
-**Group:** \[d\]
+**Group:** D
 
-## Team Delivery 1
+## Team roles established in Deliverable 1
 
   Team member   Role / responsibility
   ------------- -----------------------
-  \[Vebjørn\]     \[Product Owner / Product Lead / Scrum Master\]
-  \[Joakim\]      \[Experience Lead\]
-  \[Thomas\]      \[Quality Lead\]
-  \[Nhatphong\]   \[Tech Lead\]
-  \[Vegard\]      \[Architecture Lead\]
-  \[Dennis\]      \[Delivery / DevOps Lead\]
+  Vebjørn     Product Owner / Product Lead / Scrum Master
+  Joakim      Experience Lead
+  Thomas      Quality Lead
+  Nhatphong   Tech Lead
+  Vegard      Architecture Lead
+  Dennis      Delivery / DevOps Lead
 
 Roles can evolve during the project. Collective ownership of the product
 remains a team responsibility.
