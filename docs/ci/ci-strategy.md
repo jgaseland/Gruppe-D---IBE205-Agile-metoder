@@ -37,6 +37,15 @@ Verify that the application can be built successfully.
 ### 6. Quality gate
 A PR should not be treated as ready when required automated checks fail.
 
+## Proposed CI quality gates
+
+| Trigger | Automated check | Expected result / consequence |
+|---|---|---|
+| Pull Request | Static checks / lint | No blocking quality errors before merge. |
+| Pull Request | Unit + integration tests | Required tests pass; failures block readiness. |
+| Pull Request | Application build | Build completes successfully. |
+| Merge to `main` | Build + deployment step | Test environment is updated when deployment is configured. |
+
 ## Delivery pipeline
 For the student project, deployment can remain simple:
 `Merge to main -> build verified -> deploy/update test environment`
