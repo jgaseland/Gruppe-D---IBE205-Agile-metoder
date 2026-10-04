@@ -37,6 +37,16 @@ flowchart LR
     B --> I[Image/File Storage]
 ```
 
+## Responsibility between components and team roles
+Component responsibility is separated from team roles, but the current role structure provides a practical ownership model:
+- **Experience Lead:** validates UX consistency and acceptance flows.
+- **Tech Lead:** coordinates implementation choices and API/backend concerns.
+- **Architecture Lead:** maintains consistency between the domain model and solution architecture.
+- **Quality Lead:** coordinates quality criteria and test coverage.
+- **Delivery / DevOps:** coordinates CI and delivery-pipeline work.
+
+These are ownership areas rather than isolated silos. The intended process retains collective ownership through Git and Pull Requests.
+
 ## Example data flow – Check-in
 1. User opens a Match in the frontend.
 2. Frontend retrieves Match, Club and Stadium information through the API.
