@@ -338,16 +338,15 @@ continuous integration/delivery, and evidence-based improvement.
 
 **Group:** D
 
-## Team roles established in Deliverable 1
+## Current Team Roles and Responsibilities
 
   Team member   Role / responsibility
   ------------- -----------------------
-  Vebjørn     Product Owner / Product Lead / Scrum Master
-  Joakim      Experience Lead
+  Joakim      Product Owner / Product Lead / Scrum Master / Experience Lead / Architecture Lead / DevOps Lead
   Thomas      Quality Lead
   Nhatphong   Tech Lead
-  Vegard      Architecture Lead
-  Dennis      Delivery / DevOps Lead
+  Dennis      Delivery
 
-Roles can evolve during the project. Collective ownership of the product
-remains a team responsibility.
+Due to limited participation and availability within the group during Deliverable 2, several responsibilities were consolidated. Joakim therefore covered multiple coordination and design responsibilities, while the remaining roles reflect the areas in which team members contributed or retained responsibility. This differs from the initial role distribution established during Deliverable 1.
+
+Roles can evolve during the project. Collective ownership of the product remains a team responsibility.
