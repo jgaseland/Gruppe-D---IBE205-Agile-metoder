@@ -30,3 +30,11 @@ Prepared 23 October 2026. This is a **preparation aid**, not a claim about Deliv
 - [ ] Review and test database permissions before feed integration
 - [ ] Merge only approved changes and confirm production deployment
 - [ ] Update README/screenshots/report with final links and dates
+
+## Additional verification — 23 October 2026
+
+- PR #33 latest code and privacy projection passed CI: https://github.com/jgaseland/Gruppe-D---IBE205-Agile-metoder/actions/runs/40017103200 (commit `73d4a900c805bba16a54c7394a2ac28ddcf8b306`).
+- PR #32 passed CI: https://github.com/jgaseland/Gruppe-D---IBE205-Agile-metoder/actions/runs/40015712606 (commit `f47e379e72b7d656535db00e47605e3a1c498e11`).
+- PR #32 and #33 remain open. Neither has a submitted GitHub review at this check.
+- Manual test Issue #35 remains open; no manual acceptance result is claimed.
+- The feed still does **not** show additional match details in production. The formatting helper is tested but not integrated with a privacy-reviewed data source.
