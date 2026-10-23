@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
   try {
     const user = await authenticatedUser(request);
     if (!user) return NextResponse.json({ error: "Logg inn for å se aktivitetsfeeden." }, { status: 401 });
-    const query = new URLSearchParams({ select: "id,user_id,text,created_at", order: "created_at.desc", limit: "30" });
+    const query = new URLSearchParams({ select: "id,text,created_at", order: "created_at.desc", limit: "30" });
     const response = await authRequest(`/rest/v1/posts?${query}`, {}, user.token);
     if (!response.ok) return NextResponse.json({ error: "Kunne ikke hente feed." }, { status: 502 });
     return NextResponse.json({ items: await response.json() });
