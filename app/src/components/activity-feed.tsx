@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-type Activity = { id: string; user_id: string; text: string; created_at: string };
+type Activity = { id: string; text: string; created_at: string };
 export function ActivityFeed() {
   const [items, setItems] = useState<Activity[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "login" | "error">("loading");
