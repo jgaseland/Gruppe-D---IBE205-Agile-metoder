@@ -21,7 +21,7 @@ export function CheckInHistory() {
       .then(data => { setItems(data.items); setState("ready"); })
       .catch(() => setState("error"));
   }, []);
-  return <section className="mt-8">
+  return <section id="besokshistorikk" className="mt-8 scroll-mt-8">
     <h2 className="text-xl font-semibold">Min besøkshistorikk</h2>
     {state === "loading" && <p className="mt-3">Henter innsjekkinger …</p>}
     {state === "error" && <p role="alert" className="mt-3">Kunne ikke hente innsjekkinger. Prøv å logge inn på nytt.</p>}
