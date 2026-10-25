@@ -12,7 +12,7 @@ Stadionhopper project. It is used to make priorities, tasks, decisions,
 and progress visible as the project moves from **Discovery** to
 **Design**, **Development**, and finally **Release & Reflection**.
 
-------------------------------------------------------------------------
+---
 
 ## Product vision
 
@@ -22,11 +22,11 @@ experiences.
 
 The platform aims to help supporters:
 
--   discover local football activity,
--   record stadium visits,
--   share experiences,
--   connect with other supporters, and
--   participate in football-related events.
+- discover local football activity,
+- record stadium visits,
+- share experiences,
+- connect with other supporters, and
+- participate in football-related events.
 
 For clubs and Nordmøre og Romsdal Fotballkrets, the platform may provide
 increased visibility, stronger supporter engagement, and better insight
@@ -44,17 +44,17 @@ create one coherent community experience around local matches.
 
 Our Discovery work therefore focuses on questions such as:
 
--   Do supporters want to record and share stadium visits?
--   Can social connections increase engagement around local football?
--   Can events or meetups lower the threshold for attending matches?
--   Do clubs value a dedicated channel for supporter engagement?
--   Can engagement data provide useful insight for clubs and the
-    football association?
+- Do supporters want to record and share stadium visits?
+- Can social connections increase engagement around local football?
+- Can events or meetups lower the threshold for attending matches?
+- Do clubs value a dedicated channel for supporter engagement?
+- Can engagement data provide useful insight for clubs and the
+  football association?
 
 The goal is not simply to ask **"Can we build Stadionhopper?"**, but to
 learn **"Which parts of Stadionhopper are worth building?"**
 
-------------------------------------------------------------------------
+---
 
 ## MVP scope
 
@@ -63,83 +63,86 @@ functionality that can validate the core product idea.
 
 ### Must Have
 
--   Authentication and basic user profile
--   Stadium check-in with photo/basic metadata
--   Social feed
--   Follow/friend functionality
--   Simple club/stadium administration
+- Authentication and basic user profile
+- Stadium check-in with photo/basic metadata
+- Social feed
+- Follow/friend functionality
+- Simple club/stadium administration
 
 ### Should Have
 
--   Events / meetups with RSVP
--   Basic moderation
--   Onboarding
--   Push notifications
+- Events / meetups with RSVP
+- Basic moderation
+- Onboarding
+- Push notifications
 
 ### Could Have
 
--   Badges and gamification
--   Advanced search/discovery
+- Badges and gamification
+- Advanced search/discovery
 
 ### Won't Have -- first MVP
 
--   Ticket integration
--   Marketplace
--   Live-score integration
+- Ticket integration
+- Marketplace
+- Live-score integration
 
 The priorities are not based on which features seem most exciting. They
 reflect what we currently believe is necessary to create and validate
 value with the smallest realistic scope.
 
-------------------------------------------------------------------------
+---
 
 ## Core users and stakeholders
 
 The Discovery work considers several perspectives:
 
-  -----------------------------------------------------------------------
-  Group                               Main interest
-  ----------------------------------- -----------------------------------
-  Supporters                          Simple, social, and relevant
-                                      local-football experiences
+---
 
-  Potential/new supporters            Lower threshold for discovering and
-                                      attending local matches
+Group Main interest
 
-  Football clubs                      Visibility, attendance, supporter
-                                      engagement, and useful insight
+---
 
-  Nordmøre og Romsdal Fotballkrets    Community development and
-                                      cross-club insight
+Supporters Simple, social, and relevant
+local-football experiences
 
-  Sponsors/local partners             Potential future value from visible
-                                      local engagement
+Potential/new supporters Lower threshold for discovering and
+attending local matches
 
-  Development team                    Delivering and learning through an
-                                      agile process
-  -----------------------------------------------------------------------
+Football clubs Visibility, attendance, supporter
+engagement, and useful insight
+
+Nordmøre og Romsdal Fotballkrets Community development and
+cross-club insight
+
+Sponsors/local partners Potential future value from visible
+local engagement
+
+Development team Delivering and learning through an
+agile process
+
+---
 
 Our personas are **proto-personas** based on the project material. They
 are treated as hypotheses and should be revised when we receive real
 stakeholder or pilot feedback.
 
-------------------------------------------------------------------------
+---
 
 ## Discovery backlog foundation
 
 The backlog is managed through GitHub Issues / GitHub Projects. User
 stories follow the format:
 
-> **As a** \[user\], **I want** \[functionality\], **so that**
-> \[value\].
+> **As a** \[user\], **I want** \[functionality\], **so that** > \[value\].
 
 Each relevant backlog item should include:
 
--   user story,
--   acceptance criteria,
--   MoSCoW priority,
--   relevant assumptions or dependencies,
--   status / sprint assignment.
+- user story,
+- acceptance criteria,
+- MoSCoW priority,
+- relevant assumptions or dependencies,
+- status / sprint assignment.
 
 Example:
 
@@ -152,7 +155,7 @@ is visible in the user's visit history.
 
 **Priority:** `MUST`
 
-------------------------------------------------------------------------
+---
 
 ## Sprint 1 design target
 
@@ -174,7 +177,7 @@ The objective is a **small integrated increment**, not feature
 completeness. Feedback from the increment should be used to refine the
 backlog.
 
-------------------------------------------------------------------------
+---
 
 ## GitHub workflow
 
@@ -185,12 +188,12 @@ create unnecessary process.
 
 Use issues for actionable work. Where relevant, include:
 
--   clear description,
--   acceptance criteria,
--   MoSCoW label,
--   assignee(s),
--   sprint/milestone,
--   dependencies or blockers.
+- clear description,
+- acceptance criteria,
+- MoSCoW label,
+- assignee(s),
+- sprint/milestone,
+- dependencies or blockers.
 
 ### Project board
 
@@ -208,7 +211,7 @@ small branches and reviewed before being merged.
 
 Example:
 
-``` text
+```text
 main
  ├── feature/login
  ├── feature/profile
@@ -219,20 +222,20 @@ The exact Git strategy may be adjusted during the Design phase. The team
 should prefer a simple workflow that supports frequent integration and
 shared ownership.
 
-------------------------------------------------------------------------
+---
 
 ## Team working principles
 
 Our collaboration is based on:
 
--   shared goals and collective ownership,
--   open and respectful communication,
--   transparency about progress and blockers,
--   asking for help early,
--   constructive feedback,
--   knowledge sharing,
--   psychological safety,
--   continuous learning and improvement.
+- shared goals and collective ownership,
+- open and respectful communication,
+- transparency about progress and blockers,
+- asking for help early,
+- constructive feedback,
+- knowledge sharing,
+- psychological safety,
+- continuous learning and improvement.
 
 Questions and uncertainty are welcome. Mistakes should be treated as
 opportunities to learn rather than reasons for blame.
@@ -240,13 +243,13 @@ opportunities to learn rather than reasons for blame.
 Important decisions should be visible to the team, and difficult work
 should not become dependent on only one person.
 
-------------------------------------------------------------------------
+---
 
 ## Deliverable 2 guide
 
 For a concise map of how Discovery, UX, domain modelling, architecture, Git, CI and testing connect, see [Deliverable 2 Overview and Traceability](docs/deliverable-2-overview.md).
 
-------------------------------------------------------------------------
+---
 
 ## Repository structure
 
@@ -258,7 +261,7 @@ The implemented prototype lives in `app/` (Next.js 15, React 19, TypeScript); `s
 
 **Scope note:** The earlier MoSCoW list above is a product hypothesis/backlog, **not a list of implemented features**. Follow/friend features, administration, photos, events, reactions and moderation are not part of the verified Delivery 3 prototype. The demo uses seeded fictional match data; check-in is not proof of physical attendance.
 
-------------------------------------------------------------------------
+---
 
 ## Project phases
 
@@ -289,25 +292,25 @@ Delivery 3 implemented and manually exercised: registration/sign-in, profile, ma
 
 See [Delivery 3 evidence](docs/delivery-3-sprint-evidence.md) for completed checks and limitations.
 
-------------------------------------------------------------------------
+---
 
 ## Success and learning
 
 Possible indicators for later pilot evaluation include:
 
--   registered users,
--   stadium check-ins,
--   repeat activity / retention,
--   posts and interactions,
--   created events and RSVP participation,
--   activity around pilot clubs,
--   qualitative feedback from supporters and clubs.
+- registered users,
+- stadium check-ins,
+- repeat activity / retention,
+- posts and interactions,
+- created events and RSVP participation,
+- activity around pilot clubs,
+- qualitative feedback from supporters and clubs.
 
 These are not treated as guaranteed success criteria at the Discovery
 stage. They are potential measures that can help the team evaluate
 whether the product creates the intended value.
 
-------------------------------------------------------------------------
+---
 
 ## Course context
 
@@ -319,7 +322,7 @@ The project is used to practice agile product discovery, prioritization,
 iterative development, teamwork, software engineering, testing,
 continuous integration/delivery, and evidence-based improvement.
 
-------------------------------------------------------------------------
+---
 
 ### Team
 
@@ -327,12 +330,14 @@ continuous integration/delivery, and evidence-based improvement.
 
 ## Current Team Roles and Responsibilities
 
-  Team member   Role / responsibility
-  ------------- -----------------------
-  Joakim      Product Owner / Product Lead / Scrum Master / Experience Lead / Architecture Lead / DevOps Lead
-  Thomas      Quality Lead
-  Nhatphong   Tech Lead
-  Dennis      Delivery
+Team member Role / responsibility
+
+---
+
+Joakim Product Owner / Product Lead / Scrum Master / Experience Lead / Architecture Lead / DevOps Lead
+Thomas Quality Lead
+Nhatphong Tech Lead
+Dennis Delivery
 
 Due to limited participation and availability within the group during Deliverable 2, several responsibilities were consolidated. Joakim therefore covered multiple coordination and design responsibilities, while the remaining roles reflect the areas in which team members contributed or retained responsibility. This differs from the initial role distribution established during Deliverable 1.
 
